@@ -1,0 +1,22 @@
+{
+  "login_interface": {"method": "GET",
+                    "url" : "/pages/AppLogin/login.do",
+                    "params": ["loginName", "password"]},
+  "listCheckedPlan_interface": {"method": "GET",
+                    "url" : "/pages/AppPatrol/listCheckedPlan.go",
+                    "params": ["staffId"]},
+  "achieveRepairTask_interface": {"method": "GET",
+                    "url" : "/pages/AppRepair/achieveRepairTask.go",
+                    "params": ["staffId"]},
+  "beginRepairTask_interface": {"method": "GET",
+                    "url" : "/pages/AppRepair/beginRepairTask.go",
+                    "params": ["powercutId"]},
+  "getRepairPersons_interface": {"method": "GET",
+                    "url" : "/pages/AppRepair/getRepairPersons.go",
+                    "params": ["powercutId"]},
+  "getBackBrakes_interface": {"method": "GET",
+                    "url" : "/pages/AppRepair/getBackBrakes.go",
+                    "params": ["powercutId", "workticketId"]},
+
+}
+

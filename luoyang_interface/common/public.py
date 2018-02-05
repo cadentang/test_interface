@@ -156,6 +156,15 @@ def get_url_from_xml(name):
     url = '/v2/' + '/'.join(url_list)
     return url
 
+
+# ***************** read url.json xml ****************
+def get_url_from_json(name):
+    """
+    从url.json中获取接口url
+    :param name: 文件名
+    :return:  
+    """
+
 if __name__ == "__main__":
     print(get_xls("userCase.xlsx", "login"))
     set_visitor_token_to_config()

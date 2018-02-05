@@ -5,6 +5,7 @@ import json
 
 localReadConfig = readConfig.ReadConfig()
 
+
 class ConfigHttp:
 
     def __init__(self):

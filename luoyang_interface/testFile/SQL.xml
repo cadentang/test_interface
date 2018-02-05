@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <page>
-    <database name="test">
-        <table name="testtable">
+    <database name="lygtmis">
+        <table name="sys_staff">
             <sql id="select_member">
                 SELECT * FROM rs_member_wallet_bill WHERE member_id=%s
             </sql>
